@@ -1,0 +1,13 @@
+{{ $name }}
+{{ $email }}
+{{ $company }}
+{{ $service }}
+{{ $what }}
+{{ $area1 }}
+{{ $area1 }}
+{{ $quest1 }}
+{{ $quest2 }}
+{{ $quest3 }}
+{{ $quest4 }}
+{{ $quest5 }}
+{{ $quest6 }}
