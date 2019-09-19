@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Tests | Makcode Apps</title>
+  <title>Requerimientos 🔥 | Makcode Apps</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -29,7 +29,7 @@
 
 <div class="container mt-5">
     <div class="col-xl-12 text-center">
-        <h2>Ayudanos a conocer mas tu idea de proyecto</h2>
+        <h2>Ayúdanos a conocer más tu idea de proyecto</h2>
     </div>
     <form method="POST" action="{{ route('messages') }}">
         {{ csrf_field() }}
@@ -53,12 +53,13 @@
         <div class="col-xl-5 mt-4">
             <label><i class="fas fa-concierge-bell"></i> Tipo de Servicio</label>
              <select class="form-control" name="service">
-                 <option>App Movil</option>
-                 <option>App-Web</option>
-                 <option>Web site</option>
+                 <option>App Movil 📱</option>
+                 <option>App Web 📱 🖥 🌐</option>
+                 <option>Web site 🌐</option>
+                 <option>Todas 😱</option>
              </select>
         </div>
-        <div class="col-xl-12 mt-5"><p>Hola! este es una breve test para saber cual es su nesecidad en su proyecto </p></div>
+        <div class="col-xl-12 mt-5"><p>Hola! 😃. Escríbenos abajo todas tus necesidades e ideas para tu gran proyecto  🔥📱 </p></div>
         <div class="col-xl-12 mt-4">
             <label><h6>¿Puede por favor describir su negocio?</h6></label>
             <textarea class="form-control" name="area1" rows="4"></textarea>
@@ -67,18 +68,25 @@
             <label><h6>Ahora describa detalladamente la idea de su  proyecto</h6></label>
             <textarea class="form-control" name="area2" rows="4"></textarea>
         </div>
-        <div class="col-xl-12 mt-5"><p>A continucion le solicitamos que de respuesta a las siguientes preguntas para poder brindarle un mejor servicio.</p></div>
+        <div class="col-xl-12 mt-4">
+            <label><h6>Que secciones o funcionalidades cree que debe de tener su app?</h6></label>
+            <textarea class="form-control" name="area3" rows="4"></textarea>
+        </div>
+        <div class="col-xl-12 mt-5"><p>A continucion le solicitamos que de respuesta a las siguientes preguntas para poder brindarle un mejor servicio 🙂</p></div>
         <div class="col-xl-12 mt-4">
             <label><i class="fas fa-code"></i> ¿Quiénes son sus competidores?</label>
-            <div class="col-xl-12"><p><i class="fas fa-hand-point-right"></i> <b>Nota:</b> Es esencial saber quiénes son sus competidores y lo que están ofreciendo.</div>
-            <input type="text" name="quest1" class="form-control">
+            <div class="col-xl-12"><p> 👉 <b>Nota:</b> Es esencial saber quiénes son sus competidores y lo que están ofreciendo. Esto nos ayudará a darte una mejor solucion digital </div>
+            {{-- <input type="text" name="quest1" class="form-control"> --}}
+            <textarea class="form-control" name="quest1" id="" rows="3"></textarea>
         </div>
         <div class="col-xl-12 mt-4">
-            <label><i class="fas fa-code"></i> ¿Para qué plataformas requiere la aplicación?</label>
+            <label><i class="fas fa-code"></i> ¿Para qué plataformas requiere la aplicación? 🤔</label>
             <select class="form-control" name="quest2">
                  <option>Android (Smartphone comun)</option>
                  <option>iOS (Iphone)</option>
+                 <option>Web (Chrome, Firefox, etc)</option>
                  <option>Android y iOS </option>
+                 <option>Web + Android + iOS </option>
              </select>
         </div>
         <div class="col-xl-12 mt-4">

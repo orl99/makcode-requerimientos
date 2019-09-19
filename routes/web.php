@@ -26,7 +26,7 @@ Route::post('messages', function() {
     $data = request()->all();
 	Mail::send("mail.messages", $data, function($messages) use($data){
 		$messages->from($data['email'], $data['name'])
-		         ->to('makcodeglobal@gmail.com', 'Nuevo Test')
+		         ->to('makcodeglobal@gmail.com', 'Requerimientos | Nuevo Cliente | ')
 		         //->cc('mac@makcode.tech')
 		         //->cc('')
 		         ->subject('Nuevo Test');  
